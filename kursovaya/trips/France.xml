@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trips>
+  <trip>
+    <name>Франция</name>
+    <duration>14 ч 25 мин</duration>
+    <date>10.05.2022 8:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+  <trip>
+    <name>Франция</name>
+    <duration>12 ч 25 мин</duration>
+    <date>10.05.2022 13:00</date>
+    <cost>300 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>12 ч 00 мин</duration>
+    <date>10.05.2022 21:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>14 ч 25 мин</duration>
+    <date>11.05.2022 8:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>12 ч 25 мин</duration>
+    <date>11.05.2022 13:00</date>
+    <cost>300 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>12 ч 00 мин</duration>
+    <date>11.05.2022 21:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>14 ч 25 мин</duration>
+    <date>12.05.2022 8:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>12 ч 25 мин</duration>
+    <date>12.05.2022 13:00</date>
+    <cost>300 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+    <trip>
+    <name>Франция</name>
+    <duration>12 ч 00 мин</duration>
+    <date>12.05.2022 21:00</date>
+    <cost>250 рублей</cost>
+    <bought>Japan.html</bought>
+  </trip>
+</trips>

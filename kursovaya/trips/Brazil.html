@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styleOld.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="../script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/trips.css">
+<title id ="ConrtyName">Brazil</title>
+
+
+  
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="container">
+      <div class="header_body">
+        <a href="../index.html" class="header_logo">
+          <img src="img/logo.svg" alt="">
+      </a>
+          <div class="header_burger">
+            <span></span>
+          </div>
+          <nav class="header_menu">
+            <ul class="header_list">
+              <li>
+                <a href="../index.html"class="header_link">Главная</a>
+              </li>
+              <li>
+                <a href="../trips.html"class="header_link">Полёты</a>
+              </li>
+              <li>
+                <a href="../index.html#map_titel"class="header_link">Аэропорт</a>
+              </li>
+              <li>
+                <a href="../index.html#contakts"class="header_link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+    </header>
+
+    <div class="conteiner_fullslyapa" id="HEAD">
+      <div class="container_img"><img src="img/Brazil.jpg" alt=""></div><div class="containet_text"><h1>Бразилия</h1><p><h2>Общие сведения о Бразилия</h2>
+        Бразилия – страна в Южной Америке, которая простирается от бассейна реки Амазонка на севере до виноградников и огромных водопадов Игуасу на юге. Город Рио-де-Жанейро, символом которого является статуя Христа Искупителя высотой 38 метров на вершине горы Корковаду, славится своими оживленными пляжами Копакабана и Ипанема, а также масштабным карнавалом, посетители которого могут полюбоваться на ярко украшенные движущиеся платформы и танцоров
+        Население — 214,3 миллиона.
+        Столица — Бразилиа.
+        Государственный язык — Португальский.
+        Национальная валюта — Бразильский реал. 
+        <h2>Когда лучше ехать в Бразилию</h2>
+        Несмотря на то, что высокий туристический сезон обычно длится с декабря по март, лучшим временем для посещения Бразилии можно назвать период с сентября по октябрь. Местное лето (декабрь-март) – это не только самые теплые, но и самые влажные месяцы.</p> 
+      </div>
+    </div>
+    <div class="brr" id="Reys"></div>
+<h1>Билеты на ближайшие полёты</h1>
+    <table id="tripsTable">
+      <thead>
+        <tr>
+          <th>Куда</th>
+          <th>Продолжительность</th>
+          <th>Дата</th>
+          <th>Стоимость</th>
+          <th>Покупка</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  
+  
+  <script src="XMLtoTrip.js"></script>
+   
+   
+    <div class="brr" id="map_titel"></div>
+    <h1>Аэропорт</h1>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2680.550723719218!2d28.031986429718625!3d53.88278891735359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LDRjdGA0L7Qv9C-0YDRgtGLINC80LjQvdGB0Lo!5e1!3m2!1sru!2sby!4v1682875337768!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <div class="brr" id="contakts"></div>
+
+  
+  
+
+    <footer class="footer-bs">
+      <div class="row">
+        <div class="col-md-3 footer-brand animated fadeInLeft">
+          <h2>Fast&Easy</h2>
+          <p>Основной акцент в своей работе авиакомпания делает на предоставлении возможности клиентам летать как
+            прямыми рейсами, так и без промедления продолжить путешествие в любую точку мира, стараясь учесть при этом
+            все пожелания пассажира.</p>
+          <p>© 2023 Fast&Easy, All rights reserved</p>
+        </div>
+        <div class="col-md-4 footer-nav animated fadeInUp">
+          <h4>Меню —</h4>
+          <div class="col-md-6">
+            <ul class="pages">
+              <li><a href="#HEAD">Главная</a></li>
+              <li><a href="#Reys">Рейсы</a></li>
+              <li><a href="#map_titel">Расположение</a></li>
+              <li><a href="#contakts">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 footer-social animated fadeInDown">
+          <h4>Подпишись</h4>
+          <ul>
+            <li><a href="https://vk.com/explosioooon">Vk</a></li>
+            <li><a href="https://t.me/Explosiooooon">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+  
+  </body>
+
+   
+  
+</html>

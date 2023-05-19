@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trips>
+  <trip>
+    <name>Япония</name>
+    <duration>14 часов</duration>
+    <date>10.05.2023</date>
+    <cost>255 рублей</cost>
+    <bought>trips/Japan.html</bought>
+  </trip>
+  <trip>
+    <name>Франция</name>
+    <duration>4 часа</duration>
+    <date>10.05.2023</date>
+    <cost>195 рублей</cost>
+    <bought>trips/France.html</bought>
+  </trip>
+  <trip>
+     <name>Германия</name>
+    <duration>3 часа</duration>
+    <date>10.05.2023</date>
+    <cost>150 рублей</cost>
+    <bought>trips/Germany.html</bought>
+  </trip>
+    <trip>
+    <name>Китай</name>
+    <duration>16 часов</duration>
+    <date>10.05.2023</date>
+    <cost>250 рублей</cost>
+    <bought>trips/China.html</bought>
+  </trip>
+  <trip>
+    <name>Индия</name>
+    <duration>14 часов</duration>
+    <date>10.05.2023</date>
+    <cost>225 рублей</cost>
+    <bought>trips/India.html</bought>
+  </trip>
+  <trip>
+     <name>Австралия</name>
+    <duration>17 часов</duration>
+    <date>10.05.2023</date>
+    <cost>350 рублей</cost>
+    <bought>trips/Australia.html</bought>
+  </trip>
+    <trip>
+    <name>Австрия</name>
+    <duration>4 часа</duration>
+    <date>10.05.2023</date>
+    <cost>150 рублей</cost>
+    <bought>trips/Austria.html</bought>
+  </trip>
+  <trip>
+    <name>Чили</name>
+    <duration>16 часов</duration>
+    <date>10.05.2023</date>
+    <cost>280 рублей</cost>
+    <bought>trips/Chile.html</bought>
+  </trip>
+  <trip>
+     <name>Бразилия</name>
+    <duration>15 часов </duration>
+    <date>10.05.2023</date>
+    <cost>300 рублей</cost>
+    <bought>trips/Brazil.html</bought>
+  </trip>
+</trips>

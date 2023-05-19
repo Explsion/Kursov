@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/trips.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>EasyFly</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+                <div class="header_body">
+                    <a href="index.html" class="header_logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                </div>
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li>
+                                <a href="index.html" class="header_link">Главная</a>
+                            </li>
+                            <li>
+                                <a href="trips.html" class="header_link">Полёты</a>
+                            </li>
+                            <li>
+                                <a href="index.html#map_titel" class="header_link">Аэропорт</a>
+                            </li>
+                            <li>
+                                <a href="index.html#contakts" class="header_link">Контакты</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+        </header>
+
+
+
+
+        <main>
+
+            
+            <h1>Ближайшие полёты в страны</h1>
+            
+            <table id="tripsTable">
+              <thead>
+                <tr>
+                  <th>Название</th>
+                  <th>Продолжительность</th>
+                  <th>Дата</th>
+                  <th>Стоимость</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+        
+        
+            <script src="XMLscript.js"></script>
+
+
+        </main>
+
+
+        <footer class="footer-bs">
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <h2>Fast&Easy</h2>
+                    <p>Основной акцент в своей работе авиакомпания делает на предоставлении возможности клиентам летать
+                        как прямыми рейсами, так и без промедления продолжить путешествие в любую точку мира, стараясь
+                        учесть при этом все пожелания пассажира.</p>
+                    <p>© 2023 Fast&Easy, All rights reserved</p>
+                </div>
+                <div class="col-md-4 footer-nav animated fadeInUp">
+                    <h4>Меню —</h4>
+                    <div class="col-md-6">
+                        <ul class="pages">
+                            <li><a href="#HEAD">Главная</a></li>
+                            <li><a href="#Reys">Полёты</a></li>
+                            <li><a href="#map_titel">Аэропорт</a></li>
+                            <li><a href="#contakts">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-social animated fadeInDown">
+                    <h4>Подпишись</h4>
+                    <ul>
+                        <li><a href="https://vk.com/explosioooon">Vk</a></li>
+                        <li><a href="https://t.me/Explosiooooon">Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
